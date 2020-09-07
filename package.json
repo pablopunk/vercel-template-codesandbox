@@ -2,7 +2,7 @@
   "name": "vercel",
   "description": "Run `vercel dev` on the cloud",
   "scripts": {
-    "start": "vercel login && vercel dev",
+    "start": "vercel dev",
     "login": "vercel login"
   },
   "devDependencies": {
