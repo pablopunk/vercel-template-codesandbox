@@ -1,0 +1,10 @@
+{
+  "name": "vercel",
+  "description": "Deploy vercel lambdas and static files",
+  "scripts": {
+    "start": "vercel dev"
+  },
+  "devDependencies": {
+    "vercel": "*"
+  }
+}
