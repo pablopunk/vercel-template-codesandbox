@@ -2,17 +2,11 @@
   "name": "vercel",
   "description": "Run `vercel dev` on the cloud",
   "scripts": {
-    "start": "vercel dev",
+    "start": "vercel login && vercel dev",
     "login": "vercel login"
   },
   "devDependencies": {
     "vercel": "*"
   },
-  "keywords": [
-    "vercel",
-    "lambdas",
-    "static",
-    "dev",
-    "api"
-  ]
+  "keywords": ["vercel", "lambdas", "static", "dev", "api"]
 }
